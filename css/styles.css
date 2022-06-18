@@ -1,0 +1,282 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h2, h3 {
+  font-weight: 900;
+}
+
+/* Title Container */
+.container-fluid {
+  padding: 3% 17%;
+}
+
+/* colored sections of the page */
+.colored-section {
+  background-color: #ff4c68;
+}
+
+/* white-sections of the page */
+.white-section {
+    background-color: #fff;
+}
+
+/* Testimonials section color */
+#press, #testimonials.colored-section {
+  background-color: #ef8172;
+}
+
+
+/* ***************************************************Navbar Sectiom********************************************************************* */
+/* Tindog brand logo */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 4.5rem;
+  text-align: left;
+}
+
+/* navbar links-right */
+.navbar-links {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* navbar link-spacing */
+.nav-link {
+  margin-right: 40px;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+/* ***************************************************Title Sectiom********************************************************************* */
+/* download button icons */
+.dwnld-icons {
+  margin-right: 5px;
+}
+
+/* Title image */
+.title-img {
+  transform: rotate(25deg);
+  max-width: 82%;
+  position: absolute;
+  right: 35%;
+  z-index: 0;
+  padding: 20% 2%
+}
+
+/* Main Title */
+.title {
+  font-size: 3.3rem;
+  color: #fff;
+  font-weight: 900;
+  line-height: 1.7;
+}
+
+/* Title Download button */
+.download-btn {
+  border-radius: 5%;
+  font-weight: 400;
+  margin: 20px 20px 0 0;
+}
+
+/* Apple ogo download button position */
+.apple-dwnld-logo {
+  margin-right: 10px;
+  height: 20px;
+}
+
+#title {
+  text-align: left;
+  max-height: 1150px;
+}
+
+@media (min-width: 1200px){
+  #title {
+    max-height: 870px;
+  }
+}
+
+/* Media Query for md & sm screens */
+@media (max-width: 1200px) {
+  .title-img {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* title column height */
+.title-col {
+  position: relative;
+  height: 700px;
+}
+
+
+/* ***************************************************Features Sectiom********************************************************************* */
+/* features */
+.features {
+  margin: auto;
+}
+
+@media (max-width: 990px) {
+  .features {
+    margin: 50px auto;
+  }
+}
+
+/* Feature's section Icons  */
+.feat-icons {
+  color: #ef8172;
+  margin-bottom: 40px;
+}
+
+/* Feature icons - hover */
+.feat-icons:hover {
+  color: #ff4c66;
+}
+
+/* Features - fonts */
+.feature-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* Features Section */
+#features {
+  padding: 8% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+/* ***************************************************Testimonial Sectiom********************************************************************* */
+/* Testimonial font */
+.testimonial-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  /* margin: 0 200px 0 200px; */
+}
+
+/* testimonial image */
+.testimonial-img {
+  border-radius: 100%;
+  height: 100px;
+  margin: 30px auto;
+}
+
+/* carousel arrows */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* testimonial names and location  */
+.test-names {
+  color: #fff;
+}
+
+/* cropping into cicrcle for testimonial image of Fig  */
+.test-img-cropping {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+/* ***************************************************Press Sectiom********************************************************************* */
+.press-logo {
+  width: 25%;
+  max-width: 200px;
+  margin: 30px;
+  padding-bottom: 3%;
+}
+
+/* ***************************************************Pricing Sectiom********************************************************************* */
+/* btn sign up in the pricing section  */
+.btn-signup {
+  margin-top: 40px;
+}
+
+/* Price card position */
+.pricing-position {
+  margin: auto auto 8% auto;
+  max-width: 1200px;
+}
+
+/* Pricing section position */
+.pricing-section {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 50px;
+}
+
+/* styling for p tag in pricing section */
+.pricing-style {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+/* prcing section font */
+\
+ .font {
+  font-size: 30px;
+}
+
+
+/* ***************************************************Call to action Sectiom********************************************************************* */
+/* call to action section */
+.cta {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 50px auto;
+  line-height: 2;
+  padding: 0 3%;
+}
+
+@media (min-width: 1046px) {
+  .cta{
+    padding: 3% 30%;
+  }
+}
+
+.cta-download-btn {
+  border-radius: 5%;
+  font-weight: 400;
+  margin: 0 20px 70px 0;
+}
+
+/* ***************************************************Copyright Sectiom********************************************************************* */
+/* copyright section */
+.copyright {
+  position: relative;
+  top: 100px;
+}
+
+/* ***************************************************Footer Sectiom********************************************************************* */
+/* footer socials */
+.footer-tags {
+  position: relative;
+  top: 85px;
+  margin: auto 2%;
+}
+
+/* media query for socials */
+@media (min-width:1050px) {
+  .footer-tags {
+    margin: auto .6%;
+  }
+}
